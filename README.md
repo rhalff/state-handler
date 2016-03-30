@@ -3,8 +3,7 @@
 
 # State Handler
 
-Provides a way to trigger execution chains to be executed based
-on the state of injected parameters.
+Trigger execution chains based on the state of injected parameters.
 
 ### Install
 ```bash
