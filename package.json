@@ -1,6 +1,6 @@
 {
   "name": "state-handler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "State based function chain executor",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,11 @@
     "test": "node test.js",
     "dist": "mkdir -p dist/ && browserify -s state-handler index.js > dist/state-handler.js && uglify -s dist/state-handler.js -o dist/state-handler.min.js"
   },
-  "keywords": ["object", "state", "chain"],
+  "keywords": [
+    "object",
+    "state",
+    "chain"
+  ],
   "author": "Rob Halff",
   "license": "MIT",
   "tonicExampleFilename": "example.js",
