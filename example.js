@@ -6,11 +6,11 @@ const state = {
 
 const sh = StateHandler(state)
 
-sh.on([
+const off = sh.on(
   (s) => s.items.length === 2,
   (s) => console.log(JSON.stringify(s.items)),
   (s) => s.items = []
-])
+)
 
 state.items.push(1)
 sh.exec() // NOP
