@@ -8,8 +8,8 @@ const sh = StateHandler(state)
 
 sh.on([
   (s) => s.items.length === 2,
-  (s) => s.items = [],
-  (s) => alert(JSON.stringify(s.items))
+  (s) => alert(JSON.stringify(s.items)),
+  (s) => s.items = []
 ])
 
 state.items.push(1)
