@@ -1,0 +1,8 @@
+node_modules
+.idea
+dist/
+*.txt
+*.cfg
+*.asm
+*.log
+*.swp
