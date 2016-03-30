@@ -2,7 +2,7 @@
 
 var takeArgs = Array.prototype.slice
 
-function ObjectExec () {
+function StateHandler () {
   var fns = []
   var args = takeArgs.call(arguments)
   return {
@@ -25,4 +25,4 @@ function ObjectExec () {
   }
 }
 
-module.exports = ObjectExec
+module.exports = StateHandler

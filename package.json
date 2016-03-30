@@ -1,23 +1,23 @@
 {
-  "name": "object-exec",
+  "name": "state-handler",
   "version": "1.0.0",
-  "description": "Centralized functionality executor",
+  "description": "State based function chain executor",
   "main": "index.js",
   "scripts": {
     "lint": "standard",
     "test": "node test.js",
-    "dist": "mkdir -p dist/ && browserify -s object-exec index.js > dist/object-exec.js && uglify -s dist/object-exec.js -o dist/object-exec.min.js"
+    "dist": "mkdir -p dist/ && browserify -s state-handler index.js > dist/state-handler.js && uglify -s dist/state-handler.js -o dist/state-handler.min.js"
   },
-  "keywords": ["object", "exec"],
+  "keywords": ["object", "state", "chain"],
   "author": "Rob Halff",
   "license": "MIT",
   "tonicExampleFilename": "example.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rhalff/object-exec.git"
+    "url": "https://github.com/rhalff/state-handler.git"
   },
   "bugs": {
-    "url": "https://github.com/rhalff/object-exec/issues"
+    "url": "https://github.com/rhalff/state-handler/issues"
   },
   "devDependencies": {
     "standard": "^6.0.8",
