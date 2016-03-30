@@ -1,6 +1,6 @@
 {
   "name": "state-handler",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "State based function chain executor",
   "main": "index.js",
   "scripts": {
