@@ -29,8 +29,9 @@ const sh = StateHandler (state)
 // arguments can be an array or a list of parameters
 sh.on(// [
   (s) => s.items.length === 2,
+  (s) => s.complete = true,
   (s) => alert(JSON.stringify(s.items)),
-  (s) => {s.complete = true}, // {} prevent return of false
+  (s) => {s.complete = false}, // {} prevent return of false
   (s) => s.items = [],
 // ]
 )
