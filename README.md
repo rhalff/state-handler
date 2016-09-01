@@ -65,5 +65,5 @@ sh.exec()
 
 ### Download
 
-  * Development version: https://npmcdn.com/state-handler/dist/exec.js
-  * Minified version: https://npmcdn.com/state-handler/dist/exec.min.js
+  * Development version: https://unpkg.com/state-handler/dist/exec.js
+  * Minified version: https://unpkg.com/state-handler/dist/exec.min.js
